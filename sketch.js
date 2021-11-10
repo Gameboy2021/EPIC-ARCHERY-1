@@ -42,7 +42,7 @@ function draw() {
   image(playerimage,player.position.x,player.position.y,50,180)
   //show the playerbase image using image() function
   image(baseimage,playerBase.position.x,playerBase.position.y,180,150)
-  image(playerbaseimage,player.position.x,player.position.y,50,180)
+  //image(playerbaseimage,player.position.x,player.position.y,50,180)
 
   Engine.update(engine);
 
